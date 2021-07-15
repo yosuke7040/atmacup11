@@ -8,6 +8,9 @@ https://www.guruguru.science/competitions/17/
  - BERTする?
   - testdataにpenとかないから後回しでええかな
  - cv値として判断するのはtrainの最終epochでええんかな？ 
+ - [Supervised Contrastive Learning (：SupContrast)](https://www.guruguru.science/competitions/17/discussions/1775e171-2e66-4823-a3de-943381339fd4/)
+ - resnet18, resnet34, efficientnet-b0, b3~
+ - [simsiam](https://www.guruguru.science/competitions/17/discussions/a39d588e-aff2-4728-8323-b07f15563552/)
 
 ### 20210710
  - とりあえず初心者講座から受講中
