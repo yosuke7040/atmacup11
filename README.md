@@ -29,3 +29,10 @@ https://www.guruguru.science/competitions/17/
   - めちゃくちゃスコアに影響出るやん
  - ### nb004
   - EDA写経
+ - ### nb005
+  - 初心者講座2回目の写経
+ - ### nb006
+  - nb003をそのままモデルだけresnet18でしてみた。eff-b3よりbatchサイズでかくした
+  - resnet18dがうまく使えない
+ - ### nb007
+  - SimSiamの写経
