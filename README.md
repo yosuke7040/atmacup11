@@ -24,7 +24,9 @@ https://www.guruguru.science/competitions/17/
 |nb007|SimSiam|||
 |nb008|初心者講座2回目のでKFoldからStatifiedGroupKFold|0.4705||
 |nb009|nb001のをKFoldからStatifiedGroupKFoldに|0.9410|0.9514|
-|nb0010||||
+|nb010|講座1_シンプルバージョンにsimsiamで事前学習|||
+|nb011|nb010をベースにTTAしてみる|||
+|nb012|モデルをViTにしてみる（比較はnb010で, simsiam有のTTA無）|||
 
 ## Log
 ### 20210710
@@ -60,4 +62,4 @@ https://www.guruguru.science/competitions/17/
   - CVは上がったがLBは下がった
  - ### nb010
   - SimSiamで事前学習させたのを読み込んで予測
-  - model:resnet18, batch_size:128, epochs:50
+  - model:resnet18, batch_size:256, epochs:50
