@@ -12,6 +12,21 @@ https://www.guruguru.science/competitions/17/
  - resnet18, resnet34, efficientnet-b0, b3~
  - [simsiam](https://www.guruguru.science/competitions/17/discussions/a39d588e-aff2-4728-8323-b07f15563552/)
 
+## notebook
+|name|content|cv|LB|
+|----|-------|----|----|
+|nb001|講座1のシンプルバージョンそのまま|0.9483|0.9328|
+|nb002|nb001をベースにモデルをefficientnet-b3||0.9365|
+|nb003|google colabでefficientnet-b3||0.8519|
+|nb004|EDA写経|||
+|nb005|初心者講座2回目|0.8345||
+|nb006|nb003をそのままモデルだけresnet18||0.9693|
+|nb007|SimSiam|||
+|nb008|初心者講座2回目のでKFoldからStatifiedGroupKFold|0.4705||
+|nb009|nb001のをKFoldからStatifiedGroupKFoldに|0.9410|0.9514|
+|nb0010||||
+
+## Log
 ### 20210710
  - とりあえず初心者講座から受講中
  - 画像は初めてやるけど、なんとか頑張るぞ
@@ -36,3 +51,13 @@ https://www.guruguru.science/competitions/17/
   - resnet18dがうまく使えない
  - ### nb007
   - SimSiamの写経
+
+### 20210720
+ - ### nb008
+  - KFoldからStatifiedGroupKFoldにしたが、CV下がりすぎてリークしてます？
+ - ### nb009
+  - nb001のをKFoldからStatifiedGroupKFoldに
+  - CVは上がったがLBは下がった
+ - ### nb010
+  - SimSiamで事前学習させたのを読み込んで予測
+  - model:resnet18, batch_size:128, epochs:50
