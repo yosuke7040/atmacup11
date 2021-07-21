@@ -26,8 +26,10 @@ https://www.guruguru.science/competitions/17/
 |nb009|nb001のをKFoldからStatifiedGroupKFoldに|0.9410|0.9514|
 |nb010|講座1_シンプルバージョンにsimsiamで事前学習|0.9359|0.9075|
 |nb011|nb010をベースにTTAしてみる|||
-|nb012|nb003をベースにSimSiamとTTA|||
-|nb012|モデルをViTにしてみる（比較はnb010で, simsiam有のTTA無）|||
+|nb012|nb003をベースにSimSiamとTTA|0.8797|0.8963|
+|nb013|nb003をベースにepoch増やす|0.8933|0.8486|
+|nb014|nb003をベースにepoch増やす,Data Augmentationなくす|0.|0.|
+|nb015|nb014をベースにeff-B0|0.9370|0.8613|
 
 ## Log
 ### 20210710
