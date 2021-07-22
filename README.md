@@ -35,6 +35,7 @@ https://www.guruguru.science/competitions/17/
 |nb013|nb003をベースにepoch増やす|0.8933|0.8486|
 |nb014|nb003をベースにepoch増やす,Data Augmentationなくす|0.|0.|
 |nb015|nb014をベースにeff-B0|0.9370|0.8613|
+|nb016|late sub 一番スコア良かったnb015をepoch500に|0.9370|0.8613|
 
 ## Log
 ### 20210710
