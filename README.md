@@ -1,5 +1,10 @@
 # atmacup11
 
+# 振り返り  
+ - 今回はエポック50とかでやってたけど500とかくらいまで回した方がよかったらしい
+ - imageNet(Vit,eff-b3,などなど)で予測したのをLightGBMでスタッキングしたらよかった
+ - 予測値を0~3丸め込むのやってなかったな・・・
+
 https://www.guruguru.science/competitions/17/
 
 ## todo
